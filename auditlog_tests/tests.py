@@ -498,6 +498,20 @@ class SimpleIncludeModelTest(TestCase):
         sim.save()
         self.assertEqual(sim.history.count(), 2, msg="There are two log entries")
 
+        # Create with text, ignore
+        sim = SimpleIncludeModel(text="Looong text")
+        sim.save()
+        self.assertTrue(sim.history.count() == 0, msg="There are no log entries")
+
+        # Delete, ignore
+        self.assertTrue(
+            LogEntry.objects.count() == 2, msg="There are two log entries total"
+        )
+        sim.delete()
+        self.assertTrue(
+            LogEntry.objects.count() == 2, msg="No log entry added after delete"
+        )
+
 
 class SimpleExcludeModelTest(TestCase):
     """Log only changes that are not in exclude_fields"""
