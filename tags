@@ -1,0 +1,774 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACCESS	auditlog/models.py	/^        ACCESS = 3$/;"	v	class:LogEntry.Action
+Action	auditlog/models.py	/^    class Action:$/;"	c	class:LogEntry
+AdditionalDataIncludedModel	auditlog_tests/models.py	/^class AdditionalDataIncludedModel(models.Model):$/;"	c
+AdditionalDataModelTest	auditlog_tests/tests.py	/^class AdditionalDataModelTest(TestCase):$/;"	c
+AdminPanelTest	auditlog_tests/tests.py	/^class AdminPanelTest(TestCase):$/;"	c
+AdminSite	auditlog_tests/tests.py	/^from django.contrib.admin.sites import AdminSite$/;"	i
+AltPrimaryKeyModel	auditlog_tests/models.py	/^class AltPrimaryKeyModel(models.Model):$/;"	c
+AltPrimaryKeyModelBase	auditlog_tests/tests.py	/^class AltPrimaryKeyModelBase(SimpleModelTest):$/;"	c
+AltPrimaryKeyModelTest	auditlog_tests/tests.py	/^class AltPrimaryKeyModelTest(NoActorMixin, AltPrimaryKeyModelBase):$/;"	c
+AltPrimaryKeyModelWithActorTest	auditlog_tests/tests.py	/^class AltPrimaryKeyModelWithActorTest(WithActorMixin, AltPrimaryKeyModelBase):$/;"	c
+AnonymousUser	auditlog_tests/tests.py	/^from django.contrib.auth.models import AnonymousUser, User$/;"	i
+Any	auditlog/models.py	/^from typing import Any, Dict, List$/;"	i
+AppConfig	auditlog/apps.py	/^from django.apps import AppConfig$/;"	i
+AppConfig	auditlog_tests/apps.py	/^from django.apps import AppConfig$/;"	i
+ArrayField	auditlog_tests/models.py	/^from django.contrib.postgres.fields import ArrayField$/;"	i
+AuditLogRegistrationError	auditlog/registry.py	/^class AuditLogRegistrationError(Exception):$/;"	c
+AuditLogRegistrationError	auditlog_tests/tests.py	/^from auditlog.registry import AuditlogModelRegistry, AuditLogRegistrationError, auditlog$/;"	i
+AuditlogConfig	auditlog/apps.py	/^class AuditlogConfig(AppConfig):$/;"	c
+AuditlogFlushTest	auditlog_tests/test_commands.py	/^class AuditlogFlushTest(TestCase):$/;"	c
+AuditlogHistoryField	auditlog/models.py	/^class AuditlogHistoryField(GenericRelation):$/;"	c
+AuditlogHistoryField	auditlog_tests/models.py	/^from auditlog.models import AuditlogHistoryField$/;"	i
+AuditlogMiddleware	auditlog/middleware.py	/^class AuditlogMiddleware:$/;"	c
+AuditlogMiddleware	auditlog_tests/tests.py	/^from auditlog.middleware import AuditlogMiddleware$/;"	i
+AuditlogModelRegistry	auditlog/registry.py	/^class AuditlogModelRegistry:$/;"	c
+AuditlogModelRegistry	auditlog_tests/models.py	/^from auditlog.registry import AuditlogModelRegistry, auditlog$/;"	i
+AuditlogModelRegistry	auditlog_tests/tests.py	/^from auditlog.registry import AuditlogModelRegistry, AuditLogRegistrationError, auditlog$/;"	i
+AuditlogTestConfig	auditlog_tests/apps.py	/^class AuditlogTestConfig(AppConfig):$/;"	c
+BUILDDIR	docs/Makefile	/^BUILDDIR      = _build$/;"	m
+BUILDDIR	docs/make.bat	/^set BUILDDIR=_build$/;"	v
+BaseCommand	auditlog/management/commands/auditlogflush.py	/^from django.core.management.base import BaseCommand$/;"	i
+CREATE	auditlog/models.py	/^        CREATE = 0$/;"	v	class:LogEntry.Action
+CharfieldTextfieldModel	auditlog_tests/models.py	/^class CharfieldTextfieldModel(models.Model):$/;"	c
+CharfieldTextfieldModelTest	auditlog_tests/tests.py	/^class CharfieldTextfieldModelTest(TestCase):$/;"	c
+ChoicesFieldModel	auditlog_tests/models.py	/^class ChoicesFieldModel(models.Model):$/;"	c
+ChoicesFieldModelTest	auditlog_tests/tests.py	/^class ChoicesFieldModelTest(TestCase):$/;"	c
+Command	auditlog/management/commands/auditlogflush.py	/^class Command(BaseCommand):$/;"	c
+ContentType	auditlog/models.py	/^from django.contrib.contenttypes.models import ContentType$/;"	i
+ContentType	auditlog_tests/tests.py	/^from django.contrib.contenttypes.models import ContentType$/;"	i
+DATABASES	auditlog_tests/test_settings.py	/^DATABASES = {$/;"	v
+DEBUG	auditlog_tests/test_settings.py	/^DEBUG = True$/;"	v
+DEFAULT_AUTO_FIELD	auditlog_tests/test_settings.py	/^DEFAULT_AUTO_FIELD = "django.db.models.AutoField"$/;"	v
+DEFAULT_DB_ALIAS	auditlog/models.py	/^from django.db import DEFAULT_DB_ALIAS, models$/;"	i
+DEFAULT_EXCLUDE_MODELS	auditlog/registry.py	/^    DEFAULT_EXCLUDE_MODELS = ("auditlog.LogEntry", "admin.LogEntry")$/;"	v	class:AuditlogModelRegistry
+DELETE	auditlog/models.py	/^        DELETE = 2$/;"	v	class:LogEntry.Action
+DateTimeField	auditlog/diff.py	/^from django.db.models import Model, NOT_PROVIDED, DateTimeField$/;"	i
+DateTimeField	auditlog/diff.py	/^from django.db.models import NOT_PROVIDED, DateTimeField, JSONField, Model$/;"	i
+DateTimeFieldModel	auditlog_tests/models.py	/^class DateTimeFieldModel(models.Model):$/;"	c
+DateTimeFieldModelTest	auditlog_tests/tests.py	/^class DateTimeFieldModelTest(TestCase):$/;"	c
+DetailView	auditlog_tests/views.py	/^from django.views.generic import DetailView$/;"	i
+Dict	auditlog/models.py	/^from typing import Any, Dict, List$/;"	i
+DiffMsgTest	auditlog_tests/tests.py	/^class DiffMsgTest(TestCase):$/;"	c
+DisableTest	auditlog_tests/tests.py	/^class DisableTest(TestCase):$/;"	c
+DispatchUID	auditlog/registry.py	/^DispatchUID = Tuple[int, int, int]$/;"	v
+DistributionNotFound	auditlog/__init__.py	/^from pkg_resources import DistributionNotFound, get_distribution$/;"	i
+E402	docs/source/conf.py	/^import django  # noqa: E402$/;"	i
+FieldDoesNotExist	auditlog/mixins.py	/^from django.core.exceptions import FieldDoesNotExist$/;"	i
+FieldDoesNotExist	auditlog/models.py	/^from django.core.exceptions import FieldDoesNotExist$/;"	i
+GREEN	auditlog_tests/models.py	/^    GREEN = "g"$/;"	v	class:ChoicesFieldModel
+GREEN	auditlog_tests/models.py	/^    GREEN = "g"$/;"	v	class:PostgresArrayFieldModel
+GenericRelation	auditlog/models.py	/^from django.contrib.contenttypes.fields import GenericRelation$/;"	i
+INSTALLED_APPS	auditlog_tests/test_settings.py	/^INSTALLED_APPS = [$/;"	v
+JSONField	auditlog/diff.py	/^from django.db.models import NOT_PROVIDED, DateTimeField, JSONField, Model$/;"	i
+JSONModel	auditlog_tests/models.py	/^class JSONModel(models.Model):$/;"	c
+JSONModelTest	auditlog_tests/tests.py	/^class JSONModelTest(TestCase):$/;"	c
+List	auditlog/models.py	/^from typing import Any, Dict, List$/;"	i
+LogAccessMixin	auditlog/mixins.py	/^class LogAccessMixin:$/;"	c
+LogAccessMixin	auditlog_tests/views.py	/^from auditlog.mixins import LogAccessMixin$/;"	i
+LogEntry	auditlog/admin.py	/^from auditlog.models import LogEntry$/;"	i
+LogEntry	auditlog/context.py	/^from auditlog.models import LogEntry$/;"	i
+LogEntry	auditlog/diff.py	/^    from auditlog.models import LogEntry$/;"	i
+LogEntry	auditlog/management/commands/auditlogflush.py	/^from auditlog.models import LogEntry$/;"	i
+LogEntry	auditlog/mixins.py	/^from auditlog.models import LogEntry$/;"	i
+LogEntry	auditlog/models.py	/^class LogEntry(models.Model):$/;"	c
+LogEntry	auditlog/receivers.py	/^from auditlog.models import LogEntry$/;"	i
+LogEntry	auditlog_tests/tests.py	/^from auditlog.models import LogEntry$/;"	i
+LogEntryAdmin	auditlog/admin.py	/^class LogEntryAdmin(admin.ModelAdmin, LogEntryAdminMixin):$/;"	c
+LogEntryAdmin	auditlog_tests/tests.py	/^from auditlog.admin import LogEntryAdmin$/;"	i
+LogEntryAdminMixin	auditlog/admin.py	/^from auditlog.mixins import LogEntryAdminMixin$/;"	i
+LogEntryAdminMixin	auditlog/mixins.py	/^class LogEntryAdminMixin:$/;"	c
+LogEntryManager	auditlog/models.py	/^class LogEntryManager(models.Manager):$/;"	c
+MAX	auditlog/mixins.py	/^MAX = 75$/;"	v
+MIDDLEWARE	auditlog_tests/test_settings.py	/^MIDDLEWARE = [$/;"	v
+ManyRelatedModel	auditlog_tests/models.py	/^class ManyRelatedModel(models.Model):$/;"	c
+ManyRelatedModelTest	auditlog_tests/tests.py	/^class ManyRelatedModelTest(TestCase):$/;"	c
+ManyRelatedOtherModel	auditlog_tests/models.py	/^class ManyRelatedOtherModel(models.Model):$/;"	c
+Meta	auditlog/models.py	/^    class Meta:$/;"	c	class:LogEntry
+Meta	auditlog_tests/models.py	/^    class Meta:$/;"	c	class:ProxyModel
+MiddlewareTest	auditlog_tests/tests.py	/^class MiddlewareTest(TestCase):$/;"	c
+Migration	auditlog/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	auditlog/migrations/0002_auto_support_long_primary_keys.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	auditlog/migrations/0003_logentry_remote_addr.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	auditlog/migrations/0004_logentry_detailed_object_repr.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	auditlog/migrations/0005_logentry_additional_data_verbose_name.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	auditlog/migrations/0006_object_pk_index.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	auditlog/migrations/0007_object_pk_type.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	auditlog/migrations/0008_action_index.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	auditlog/migrations/0009_alter_logentry_additional_data.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	auditlog/migrations/0010_alter_logentry_timestamp.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	auditlog/migrations/0011_logentry_serialized_data.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	auditlog/migrations/0012_add_logentry_action_access.py	/^class Migration(migrations.Migration):$/;"	c
+Model	auditlog/diff.py	/^from django.db.models import Model, NOT_PROVIDED, DateTimeField$/;"	i
+Model	auditlog/diff.py	/^from django.db.models import NOT_PROVIDED, DateTimeField, JSONField, Model$/;"	i
+Model	auditlog/registry.py	/^from django.db.models import Model$/;"	i
+ModelBase	auditlog/registry.py	/^from django.db.models.base import ModelBase$/;"	i
+ModelInstanceDiffTest	auditlog_tests/tests.py	/^class ModelInstanceDiffTest(TestCase):$/;"	c
+NOT_PROVIDED	auditlog/diff.py	/^from django.db.models import Model, NOT_PROVIDED, DateTimeField$/;"	i
+NOT_PROVIDED	auditlog/diff.py	/^from django.db.models import NOT_PROVIDED, DateTimeField, JSONField, Model$/;"	i
+NoActorMixin	auditlog_tests/tests.py	/^class NoActorMixin:$/;"	c
+NoDeleteHistoryModel	auditlog_tests/models.py	/^class NoDeleteHistoryModel(models.Model):$/;"	c
+NoDeleteHistoryTest	auditlog_tests/tests.py	/^class NoDeleteHistoryTest(TestCase):$/;"	c
+NoReverseMatch	auditlog/mixins.py	/^from django.urls.exceptions import NoReverseMatch$/;"	i
+ObjectDoesNotExist	auditlog/diff.py	/^from django.core.exceptions import ObjectDoesNotExist$/;"	i
+PostgresArrayFieldModel	auditlog_tests/models.py	/^class PostgresArrayFieldModel(models.Model):$/;"	c
+PostgresArrayFieldModelTest	auditlog_tests/tests.py	/^class PostgresArrayFieldModelTest(TestCase):$/;"	c
+ProxyModel	auditlog_tests/models.py	/^class ProxyModel(SimpleModel):$/;"	c
+ProxyModelBase	auditlog_tests/tests.py	/^class ProxyModelBase(SimpleModelTest):$/;"	c
+ProxyModelTest	auditlog_tests/tests.py	/^class ProxyModelTest(NoActorMixin, ProxyModelBase):$/;"	c
+ProxyModelWithActorTest	auditlog_tests/tests.py	/^class ProxyModelWithActorTest(WithActorMixin, ProxyModelBase):$/;"	c
+Q	auditlog/models.py	/^from django.db.models import Q, QuerySet$/;"	i
+QuerySet	auditlog/models.py	/^from django.db.models import Q, QuerySet$/;"	i
+RED	auditlog_tests/models.py	/^    RED = "r"$/;"	v	class:ChoicesFieldModel
+RED	auditlog_tests/models.py	/^    RED = "r"$/;"	v	class:PostgresArrayFieldModel
+ROOT_URLCONF	auditlog_tests/test_settings.py	/^ROOT_URLCONF = "auditlog_tests.urls"$/;"	v
+RegisterModelSettingsTest	auditlog_tests/tests.py	/^class RegisterModelSettingsTest(TestCase):$/;"	c
+RelatedModel	auditlog_tests/models.py	/^class RelatedModel(RelatedModelParent):$/;"	c
+RelatedModelParent	auditlog_tests/models.py	/^class RelatedModelParent(models.Model):$/;"	c
+RequestFactory	auditlog_tests/tests.py	/^from django.test import RequestFactory, TestCase, override_settings$/;"	i
+ResourceTypeFilter	auditlog/admin.py	/^from auditlog.filters import ResourceTypeFilter$/;"	i
+ResourceTypeFilter	auditlog/filters.py	/^class ResourceTypeFilter(SimpleListFilter):$/;"	c
+SECRET_KEY	auditlog_tests/test_settings.py	/^SECRET_KEY = "test"$/;"	v
+SOURCEDIR	docs/Makefile	/^SOURCEDIR     = source$/;"	m
+SOURCEDIR	docs/make.bat	/^set SOURCEDIR=source$/;"	v
+SPHINXBUILD	docs/Makefile	/^SPHINXBUILD   ?= sphinx-build$/;"	m
+SPHINXBUILD	docs/make.bat	/^	set SPHINXBUILD=sphinx-build$/;"	v
+SPHINXOPTS	docs/Makefile	/^SPHINXOPTS    ?=$/;"	m
+STATIC_URL	auditlog_tests/test_settings.py	/^STATIC_URL = "\/static\/"$/;"	v
+STATUS_CHOICES	auditlog_tests/models.py	/^    STATUS_CHOICES = ($/;"	v	class:ChoicesFieldModel
+STATUS_CHOICES	auditlog_tests/models.py	/^    STATUS_CHOICES = ($/;"	v	class:PostgresArrayFieldModel
+SerializeNaturalKeyRelatedModel	auditlog_tests/models.py	/^class SerializeNaturalKeyRelatedModel(models.Model):$/;"	c
+SerializeOnlySomeOfThisModel	auditlog_tests/models.py	/^class SerializeOnlySomeOfThisModel(models.Model):$/;"	c
+SerializePrimaryKeyRelatedModel	auditlog_tests/models.py	/^class SerializePrimaryKeyRelatedModel(models.Model):$/;"	c
+SerializeThisModel	auditlog_tests/models.py	/^class SerializeThisModel(models.Model):$/;"	c
+SimpeMaskedFieldsModelTest	auditlog_tests/tests.py	/^class SimpeMaskedFieldsModelTest(TestCase):$/;"	c
+SimpleExcludeModel	auditlog_tests/models.py	/^class SimpleExcludeModel(models.Model):$/;"	c
+SimpleExcludeModelTest	auditlog_tests/tests.py	/^class SimpleExcludeModelTest(TestCase):$/;"	c
+SimpleIncludeModel	auditlog_tests/models.py	/^class SimpleIncludeModel(models.Model):$/;"	c
+SimpleIncludeModelTest	auditlog_tests/tests.py	/^class SimpleIncludeModelTest(TestCase):$/;"	c
+SimpleListFilter	auditlog/filters.py	/^from django.contrib.admin import SimpleListFilter$/;"	i
+SimpleMappingModel	auditlog_tests/models.py	/^class SimpleMappingModel(models.Model):$/;"	c
+SimpleMappingModelTest	auditlog_tests/tests.py	/^class SimpleMappingModelTest(TestCase):$/;"	c
+SimpleMaskedModel	auditlog_tests/models.py	/^class SimpleMaskedModel(models.Model):$/;"	c
+SimpleModel	auditlog_tests/models.py	/^class SimpleModel(models.Model):$/;"	c
+SimpleModel	auditlog_tests/test_commands.py	/^from auditlog_tests.models import SimpleModel$/;"	i
+SimpleModel	auditlog_tests/views.py	/^from auditlog_tests.models import SimpleModel$/;"	i
+SimpleModelDetailview	auditlog_tests/urls.py	/^from auditlog_tests.views import SimpleModelDetailview$/;"	i
+SimpleModelDetailview	auditlog_tests/views.py	/^class SimpleModelDetailview(LogAccessMixin, DetailView):$/;"	c
+SimpleModelTest	auditlog_tests/tests.py	/^class SimpleModelTest(TestCase):$/;"	c
+StringIO	auditlog_tests/test_commands.py	/^from io import StringIO$/;"	i
+TEMPLATES	auditlog_tests/test_settings.py	/^TEMPLATES = [$/;"	v
+TestAccessLog	auditlog_tests/tests.py	/^class TestAccessLog(TestCase):$/;"	c
+TestCase	auditlog_tests/test_commands.py	/^from django.test import TestCase$/;"	i
+TestCase	auditlog_tests/tests.py	/^from django.test import RequestFactory, TestCase, override_settings$/;"	i
+TestModelSerialization	auditlog_tests/tests.py	/^class TestModelSerialization(TestCase):$/;"	c
+TestRunner	runtests.py	/^    TestRunner = get_runner(settings)$/;"	v
+UPDATE	auditlog/models.py	/^        UPDATE = 1$/;"	v	class:LogEntry.Action
+USE_TZ	auditlog_tests/test_settings.py	/^USE_TZ = True$/;"	v
+UUIDPrimaryKeyModel	auditlog_tests/models.py	/^class UUIDPrimaryKeyModel(models.Model):$/;"	c
+UUIDPrimaryKeyModelModelBase	auditlog_tests/tests.py	/^class UUIDPrimaryKeyModelModelBase(SimpleModelTest):$/;"	c
+UUIDPrimaryKeyModelModelTest	auditlog_tests/tests.py	/^class UUIDPrimaryKeyModelModelTest(NoActorMixin, UUIDPrimaryKeyModelModelBase):$/;"	c
+UUIDPrimaryKeyModelModelWithActorTest	auditlog_tests/tests.py	/^):$/;"	c
+UnregisterTest	auditlog_tests/tests.py	/^class UnregisterTest(TestCase):$/;"	c
+User	auditlog_tests/tests.py	/^from django.contrib.auth.models import AnonymousUser, User$/;"	i
+WithActorMixin	auditlog_tests/tests.py	/^class WithActorMixin:$/;"	c
+YELLOW	auditlog_tests/models.py	/^    YELLOW = "y"$/;"	v	class:ChoicesFieldModel
+YELLOW	auditlog_tests/models.py	/^    YELLOW = "y"$/;"	v	class:PostgresArrayFieldModel
+_	auditlog/models.py	/^from django.utils.translation import gettext_lazy as _$/;"	i
+__call__	auditlog/middleware.py	/^    def __call__(self, request):$/;"	m	class:AuditlogMiddleware	file:
+__init__	auditlog/middleware.py	/^    def __init__(self, get_response=None):$/;"	m	class:AuditlogMiddleware
+__init__	auditlog/models.py	/^    def __init__(self, pk_indexable=True, delete_related=True, **kwargs):$/;"	m	class:AuditlogHistoryField
+__init__	auditlog/registry.py	/^    def __init__($/;"	m	class:AuditlogModelRegistry
+__str__	auditlog/models.py	/^    def __str__(self):$/;"	m	class:LogEntry	file:
+__version__	auditlog/__init__.py	/^    __version__ = get_distribution("django-auditlog").version$/;"	v
+_connect_signals	auditlog/registry.py	/^    def _connect_signals(self, model):$/;"	m	class:AuditlogModelRegistry
+_create_log_entry	auditlog_tests/tests.py	/^    def _create_log_entry(self, action, changes):$/;"	m	class:DiffMsgTest
+_disconnect_signals	auditlog/registry.py	/^    def _disconnect_signals(self, model):$/;"	m	class:AuditlogModelRegistry
+_dispatch_uid	auditlog/registry.py	/^    def _dispatch_uid(self, signal, receiver) -> DispatchUID:$/;"	m	class:AuditlogModelRegistry
+_format_header	auditlog/mixins.py	/^    def _format_header(self, *labels):$/;"	m	class:LogEntryAdminMixin
+_format_line	auditlog/mixins.py	/^    def _format_line(self, *values):$/;"	m	class:LogEntryAdminMixin
+_get_applicable_model_fields	auditlog/models.py	/^    def _get_applicable_model_fields($/;"	m	class:LogEntryManager
+_get_copy_with_python_typed_fields	auditlog/models.py	/^    def _get_copy_with_python_typed_fields(self, instance):$/;"	m	class:LogEntryManager
+_get_exclude_models	auditlog/registry.py	/^    def _get_exclude_models($/;"	m	class:AuditlogModelRegistry
+_get_model_classes	auditlog/registry.py	/^    def _get_model_classes(self, app_model: str) -> List[ModelBase]:$/;"	m	class:AuditlogModelRegistry
+_get_pk_value	auditlog/models.py	/^    def _get_pk_value(self, instance):$/;"	m	class:LogEntryManager
+_get_remote_addr	auditlog/middleware.py	/^    def _get_remote_addr(request):$/;"	m	class:AuditlogMiddleware
+_get_serialized_data_or_none	auditlog/models.py	/^    def _get_serialized_data_or_none(self, instance):$/;"	m	class:LogEntryManager
+_mask_serialized_fields	auditlog/models.py	/^    def _mask_serialized_fields($/;"	m	class:LogEntryManager
+_register_models	auditlog/registry.py	/^    def _register_models(self, models: Iterable[Union[str, Dict[str, Any]]]) -> None:$/;"	m	class:AuditlogModelRegistry
+_set_actor	auditlog/context.py	/^def _set_actor(user, sender, instance, signal_duid, **kwargs):$/;"	f
+accessed	auditlog/mixins.py	/^from auditlog.signals import accessed$/;"	i
+accessed	auditlog/registry.py	/^from auditlog.signals import accessed$/;"	i
+accessed	auditlog/signals.py	/^accessed = django.dispatch.Signal()$/;"	v
+action	auditlog/models.py	/^    action = models.PositiveSmallIntegerField($/;"	v	class:LogEntry
+actor	auditlog/models.py	/^    actor = models.ForeignKey($/;"	v	class:LogEntry
+add_arguments	auditlog/management/commands/auditlogflush.py	/^    def add_arguments(self, parser):$/;"	m	class:Command
+additional_data	auditlog/models.py	/^    additional_data = models.JSONField($/;"	v	class:LogEntry
+address	auditlog_tests/models.py	/^    address = models.CharField(max_length=100)$/;"	v	class:SimpleMaskedModel
+admin	auditlog/admin.py	/^from django.contrib import admin$/;"	i
+admin	auditlog/mixins.py	/^from django.contrib import admin$/;"	i
+admin	auditlog_tests/admin.py	/^from django.contrib import admin$/;"	i
+admin	auditlog_tests/urls.py	/^from django.contrib import admin$/;"	i
+apps	auditlog/registry.py	/^from django.apps import apps$/;"	i
+apps	auditlog_tests/tests.py	/^from django.apps import apps$/;"	i
+arrayfield	auditlog_tests/models.py	/^    arrayfield = ArrayField($/;"	v	class:PostgresArrayFieldModel
+assert_has_listeners	auditlog_tests/tests.py	/^    def assert_has_listeners(self):$/;"	m	class:MiddlewareTest
+assert_no_listeners	auditlog_tests/tests.py	/^    def assert_no_listeners(self):$/;"	m	class:MiddlewareTest
+ast	auditlog/models.py	/^import ast$/;"	i
+auditlog	auditlog/apps.py	/^        from auditlog.registry import auditlog$/;"	i
+auditlog	auditlog/diff.py	/^    from auditlog.registry import auditlog$/;"	i
+auditlog	auditlog/mixins.py	/^from auditlog.registry import auditlog$/;"	i
+auditlog	auditlog/models.py	/^        from auditlog.registry import auditlog$/;"	i
+auditlog	auditlog/registry.py	/^auditlog = AuditlogModelRegistry()$/;"	v
+auditlog	auditlog_tests/admin.py	/^from auditlog.registry import auditlog$/;"	i
+auditlog	auditlog_tests/models.py	/^from auditlog.registry import AuditlogModelRegistry, auditlog$/;"	i
+auditlog	auditlog_tests/tests.py	/^from auditlog.registry import AuditlogModelRegistry, AuditLogRegistrationError, auditlog$/;"	i
+author	docs/source/conf.py	/^author = "Jan-Jelle Kester and contributors"$/;"	v
+author	setup.py	/^    author="Jan-Jelle Kester",$/;"	v
+auto_created	auditlog/migrations/0001_initial.py	/^                        auto_created=True,$/;"	v	class:Migration
+bases	auditlog/migrations/0001_initial.py	/^            bases=(models.Model,),$/;"	v	class:Migration
+blank	auditlog/migrations/0001_initial.py	/^                        blank=True,$/;"	v	class:Migration
+blank	auditlog/models.py	/^        blank=True,$/;"	v	class:LogEntry.Action
+boolean	auditlog_tests/models.py	/^    boolean = models.BooleanField(default=False)$/;"	v	class:AltPrimaryKeyModel
+boolean	auditlog_tests/models.py	/^    boolean = models.BooleanField(default=False)$/;"	v	class:SimpleModel
+boolean	auditlog_tests/models.py	/^    boolean = models.BooleanField(default=False)$/;"	v	class:UUIDPrimaryKeyModel
+bulk_related_objects	auditlog/models.py	/^    def bulk_related_objects(self, objs, using=DEFAULT_DB_ALIAS):$/;"	m	class:AuditlogHistoryField
+call_command	auditlog_tests/test_commands.py	/^    def call_command(self, *args, **kwargs):$/;"	m	class:AuditlogFlushTest
+call_command	auditlog_tests/test_commands.py	/^from django.core.management import call_command$/;"	i
+changes	auditlog/models.py	/^    changes = models.TextField(blank=True, verbose_name=_("change message"))$/;"	v	class:LogEntry
+changes_dict	auditlog/models.py	/^    def changes_dict(self):$/;"	m	class:LogEntry
+changes_display_dict	auditlog/models.py	/^    def changes_display_dict(self):$/;"	m	class:LogEntry
+changes_str	auditlog/models.py	/^    def changes_str(self, colon=": ", arrow=" \\u2192 ", separator="; "):$/;"	m	class:LogEntry
+check_create_log_entry	auditlog_tests/tests.py	/^    def check_create_log_entry(self, obj, history):$/;"	m	class:SimpleModelTest
+check_create_log_entry	auditlog_tests/tests.py	/^    def check_create_log_entry(self, obj, log_entry):$/;"	m	class:NoActorMixin
+check_create_log_entry	auditlog_tests/tests.py	/^    def check_create_log_entry(self, obj, log_entry):$/;"	m	class:WithActorMixin
+check_delete_log_entry	auditlog_tests/tests.py	/^    def check_delete_log_entry(self, obj, history):$/;"	m	class:SimpleModelTest
+check_delete_log_entry	auditlog_tests/tests.py	/^    def check_delete_log_entry(self, obj, log_entry):$/;"	m	class:NoActorMixin
+check_delete_log_entry	auditlog_tests/tests.py	/^    def check_delete_log_entry(self, obj, log_entry):$/;"	m	class:WithActorMixin
+check_disable	auditlog/receivers.py	/^def check_disable(signal_handler):$/;"	f
+check_update_log_entry	auditlog_tests/tests.py	/^    def check_update_log_entry(self, obj, history):$/;"	m	class:SimpleModelTest
+check_update_log_entry	auditlog_tests/tests.py	/^    def check_update_log_entry(self, obj, log_entry):$/;"	m	class:NoActorMixin
+check_update_log_entry	auditlog_tests/tests.py	/^    def check_update_log_entry(self, obj, log_entry):$/;"	m	class:WithActorMixin
+choices	auditlog/migrations/0001_initial.py	/^                        choices=[(0, "create"), (1, "update"), (2, "delete")],$/;"	v	class:Migration
+choices	auditlog/migrations/0008_action_index.py	/^                choices=[(0, "create"), (1, "update"), (2, "delete")],$/;"	v	class:Migration
+choices	auditlog/migrations/0012_add_logentry_action_access.py	/^                choices=[(0, "create"), (1, "update"), (2, "delete"), (3, "access")],$/;"	v	class:Migration
+choices	auditlog/models.py	/^        choices = ($/;"	v	class:LogEntry.Action
+classifiers	setup.py	/^    classifiers=[$/;"	v
+code	auditlog_tests/models.py	/^    code = models.UUIDField(null=True)$/;"	v	class:SerializeThisModel
+contains	auditlog/registry.py	/^    def contains(self, model: ModelBase) -> bool:$/;"	m	class:AuditlogModelRegistry
+content_type	auditlog/models.py	/^    content_type = models.ForeignKey($/;"	v	class:LogEntry
+contextlib	auditlog/context.py	/^import contextlib$/;"	i
+contextlib	auditlog/middleware.py	/^import contextlib$/;"	i
+copy	auditlog/registry.py	/^import copy$/;"	i
+copyright	docs/source/conf.py	/^copyright = f"2013-{date.today().year}, {author}"$/;"	v
+created	auditlog/mixins.py	/^    def created(self, obj):$/;"	m	class:LogEntryAdminMixin
+databases	auditlog_tests/tests.py	/^    databases = "__all__"$/;"	v	class:PostgresArrayFieldModelTest
+date	auditlog_tests/models.py	/^    date = models.DateField()$/;"	v	class:DateTimeFieldModel
+date	auditlog_tests/models.py	/^    date = models.DateField(null=True)$/;"	v	class:SerializeThisModel
+date	docs/source/conf.py	/^from datetime import date$/;"	i
+dateformat	auditlog_tests/tests.py	/^from django.utils import dateformat, formats$/;"	i
+datetime	auditlog/management/commands/auditlogflush.py	/^import datetime$/;"	i
+datetime	auditlog_tests/models.py	/^    datetime = models.DateTimeField(auto_now=True)$/;"	v	class:AltPrimaryKeyModel
+datetime	auditlog_tests/models.py	/^    datetime = models.DateTimeField(auto_now=True)$/;"	v	class:SimpleModel
+datetime	auditlog_tests/models.py	/^    datetime = models.DateTimeField(auto_now=True)$/;"	v	class:UUIDPrimaryKeyModel
+datetime	auditlog_tests/test_commands.py	/^import datetime$/;"	i
+datetime	auditlog_tests/tests.py	/^import datetime$/;"	i
+db	auditlog/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	i
+db_index	auditlog/migrations/0008_action_index.py	/^                db_index=True,$/;"	v	class:Migration
+db_index	auditlog/migrations/0012_add_logentry_action_access.py	/^                db_index=True,$/;"	v	class:Migration
+deepcopy	auditlog/models.py	/^from copy import deepcopy$/;"	i
+default_auto_field	auditlog/apps.py	/^    default_auto_field = "django.db.models.AutoField"$/;"	v	class:AuditlogConfig
+defaultdict	auditlog/registry.py	/^from collections import defaultdict$/;"	i
+delete	auditlog_tests/tests.py	/^    def delete(self, obj):$/;"	m	class:SimpleModelTest
+delete	auditlog_tests/tests.py	/^    def delete(self, obj):$/;"	m	class:WithActorMixin
+deletion	auditlog/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	i
+dependencies	auditlog/migrations/0001_initial.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	auditlog/migrations/0002_auto_support_long_primary_keys.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	auditlog/migrations/0003_logentry_remote_addr.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	auditlog/migrations/0004_logentry_detailed_object_repr.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	auditlog/migrations/0005_logentry_additional_data_verbose_name.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	auditlog/migrations/0006_object_pk_index.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	auditlog/migrations/0007_object_pk_type.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	auditlog/migrations/0008_action_index.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	auditlog/migrations/0009_alter_logentry_additional_data.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	auditlog/migrations/0010_alter_logentry_timestamp.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	auditlog/migrations/0011_logentry_serialized_data.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	auditlog/migrations/0012_add_logentry_action_access.py	/^    dependencies = [$/;"	v	class:Migration
+description	setup.py	/^    description="Audit log app for Django",$/;"	v
+disable_auditlog	auditlog/context.py	/^def disable_auditlog():$/;"	f
+disable_auditlog	auditlog_tests/tests.py	/^from auditlog.context import disable_auditlog, set_actor$/;"	i
+dispatch	auditlog/signals.py	/^import django.dispatch$/;"	i
+django	auditlog/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	i
+django	auditlog/signals.py	/^import django.dispatch$/;"	i
+django	docs/source/conf.py	/^import django  # noqa: E402$/;"	i
+django	runtests.py	/^import django$/;"	i
+django_timezone	auditlog/diff.py	/^from django.utils import timezone as django_timezone$/;"	i
+django_timezone	auditlog_tests/tests.py	/^from django.utils import timezone as django_timezone$/;"	i
+end	docs/make.bat	/^:end$/;"	l
+exclude_fields	auditlog_tests/models.py	/^    exclude_fields=["not_this"],$/;"	v
+exclude_patterns	docs/source/conf.py	/^exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]$/;"	v
+execute_from_command_line	auditlog_tests/manage.py	/^    from django.core.management import execute_from_command_line$/;"	i
+extensions	docs/source/conf.py	/^extensions = [$/;"	v
+failures	runtests.py	/^    failures = test_runner.run_tests(["auditlog_tests"])$/;"	v
+field	auditlog/migrations/0002_auto_support_long_primary_keys.py	/^            field=models.BigIntegerField($/;"	v	class:Migration
+field	auditlog/migrations/0003_logentry_remote_addr.py	/^            field=models.GenericIPAddressField($/;"	v	class:Migration
+field	auditlog/migrations/0004_logentry_detailed_object_repr.py	/^            field=models.JSONField(null=True, blank=True),$/;"	v	class:Migration
+field	auditlog/migrations/0005_logentry_additional_data_verbose_name.py	/^            field=models.JSONField($/;"	v	class:Migration
+field	auditlog/migrations/0006_object_pk_index.py	/^            field=models.CharField($/;"	v	class:Migration
+field	auditlog/migrations/0007_object_pk_type.py	/^            field=models.CharField($/;"	v	class:Migration
+field	auditlog/migrations/0008_action_index.py	/^            field=models.PositiveSmallIntegerField($/;"	v	class:Migration
+field	auditlog/migrations/0009_alter_logentry_additional_data.py	/^            field=models.JSONField($/;"	v	class:Migration
+field	auditlog/migrations/0010_alter_logentry_timestamp.py	/^            field=models.DateTimeField($/;"	v	class:Migration
+field	auditlog/migrations/0011_logentry_serialized_data.py	/^            field=models.JSONField(null=True),$/;"	v	class:Migration
+field	auditlog/migrations/0012_add_logentry_action_access.py	/^            field=models.PositiveSmallIntegerField($/;"	v	class:Migration
+field_verbose_name	auditlog/mixins.py	/^    def field_verbose_name(self, obj, field_name: str):$/;"	m	class:LogEntryAdminMixin
+fields	auditlog/migrations/0001_initial.py	/^            fields=[$/;"	v	class:Migration
+fieldsets	auditlog/admin.py	/^    fieldsets = [$/;"	v	class:LogEntryAdmin
+format_html	auditlog/mixins.py	/^from django.utils.html import format_html, format_html_join$/;"	i
+format_html_join	auditlog/mixins.py	/^from django.utils.html import format_html, format_html_join$/;"	i
+formats	auditlog/models.py	/^from django.utils import formats$/;"	i
+formats	auditlog_tests/tests.py	/^from django.utils import dateformat, formats$/;"	i
+freezegun	auditlog_tests/test_commands.py	/^import freezegun$/;"	i
+freezegun	auditlog_tests/tests.py	/^import freezegun$/;"	i
+get_additional_data	auditlog_tests/models.py	/^    def get_additional_data(self):$/;"	m	class:AdditionalDataIncludedModel
+get_additional_data	auditlog_tests/models.py	/^    def get_additional_data(self):$/;"	m	class:ManyRelatedModel
+get_distribution	auditlog/__init__.py	/^from pkg_resources import DistributionNotFound, get_distribution$/;"	i
+get_distribution	docs/source/conf.py	/^from pkg_resources import get_distribution$/;"	i
+get_field_value	auditlog/diff.py	/^def get_field_value(obj, field):$/;"	f
+get_fields_in_model	auditlog/diff.py	/^def get_fields_in_model(instance):$/;"	f
+get_for_model	auditlog/models.py	/^    def get_for_model(self, model):$/;"	m	class:LogEntryManager
+get_for_object	auditlog/models.py	/^    def get_for_object(self, instance):$/;"	m	class:LogEntryManager
+get_for_objects	auditlog/models.py	/^    def get_for_objects(self, queryset):$/;"	m	class:LogEntryManager
+get_latest_by	auditlog/models.py	/^        get_latest_by = "timestamp"$/;"	v	class:LogEntry.Meta
+get_model_fields	auditlog/registry.py	/^    def get_model_fields(self, model: ModelBase):$/;"	m	class:AuditlogModelRegistry
+get_models	auditlog/registry.py	/^    def get_models(self) -> List[ModelBase]:$/;"	m	class:AuditlogModelRegistry
+get_runner	runtests.py	/^from django.test.utils import get_runner$/;"	i
+get_serialize_options	auditlog/registry.py	/^    def get_serialize_options(self, model: ModelBase):$/;"	m	class:AuditlogModelRegistry
+get_user_model	auditlog/admin.py	/^from django.contrib.auth import get_user_model$/;"	i
+get_user_model	auditlog/context.py	/^from django.contrib.auth import get_user_model$/;"	i
+get_user_model	auditlog_tests/tests.py	/^from django.contrib.auth import get_user_model$/;"	i
+gettz	auditlog/models.py	/^from dateutil.tz import gettz$/;"	i
+gettz	auditlog_tests/tests.py	/^from dateutil.tz import gettz$/;"	i
+handle	auditlog/management/commands/auditlogflush.py	/^    def handle(self, *args, **options):$/;"	m	class:Command
+has_add_permission	auditlog/admin.py	/^    def has_add_permission(self, request):$/;"	m	class:LogEntryAdmin
+help	auditlog/management/commands/auditlogflush.py	/^    help = "Deletes all log entries from the database."$/;"	v	class:Command
+help	docs/make.bat	/^:help$/;"	l
+history	auditlog_tests/models.py	/^    history = AuditlogHistoryField()$/;"	v	class:AdditionalDataIncludedModel
+history	auditlog_tests/models.py	/^    history = AuditlogHistoryField()$/;"	v	class:CharfieldTextfieldModel
+history	auditlog_tests/models.py	/^    history = AuditlogHistoryField()$/;"	v	class:ChoicesFieldModel
+history	auditlog_tests/models.py	/^    history = AuditlogHistoryField()$/;"	v	class:DateTimeFieldModel
+history	auditlog_tests/models.py	/^    history = AuditlogHistoryField()$/;"	v	class:ManyRelatedModel
+history	auditlog_tests/models.py	/^    history = AuditlogHistoryField()$/;"	v	class:ManyRelatedOtherModel
+history	auditlog_tests/models.py	/^    history = AuditlogHistoryField()$/;"	v	class:PostgresArrayFieldModel
+history	auditlog_tests/models.py	/^    history = AuditlogHistoryField()$/;"	v	class:RelatedModel
+history	auditlog_tests/models.py	/^    history = AuditlogHistoryField()$/;"	v	class:SimpleExcludeModel
+history	auditlog_tests/models.py	/^    history = AuditlogHistoryField()$/;"	v	class:SimpleIncludeModel
+history	auditlog_tests/models.py	/^    history = AuditlogHistoryField()$/;"	v	class:SimpleMappingModel
+history	auditlog_tests/models.py	/^    history = AuditlogHistoryField()$/;"	v	class:SimpleMaskedModel
+history	auditlog_tests/models.py	/^    history = AuditlogHistoryField()$/;"	v	class:SimpleModel
+history	auditlog_tests/models.py	/^    history = AuditlogHistoryField(delete_related=False)$/;"	v	class:JSONModel
+history	auditlog_tests/models.py	/^    history = AuditlogHistoryField(delete_related=False)$/;"	v	class:NoDeleteHistoryModel
+history	auditlog_tests/models.py	/^    history = AuditlogHistoryField(delete_related=False)$/;"	v	class:SerializeNaturalKeyRelatedModel
+history	auditlog_tests/models.py	/^    history = AuditlogHistoryField(delete_related=False)$/;"	v	class:SerializeOnlySomeOfThisModel
+history	auditlog_tests/models.py	/^    history = AuditlogHistoryField(delete_related=False)$/;"	v	class:SerializePrimaryKeyRelatedModel
+history	auditlog_tests/models.py	/^    history = AuditlogHistoryField(delete_related=False)$/;"	v	class:SerializeThisModel
+history	auditlog_tests/models.py	/^    history = AuditlogHistoryField(pk_indexable=False)$/;"	v	class:AltPrimaryKeyModel
+history	auditlog_tests/models.py	/^    history = AuditlogHistoryField(pk_indexable=False)$/;"	v	class:UUIDPrimaryKeyModel
+html_theme	docs/source/conf.py	/^html_theme = "sphinx_rtd_theme"$/;"	v
+id	auditlog_tests/models.py	/^    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)$/;"	v	class:UUIDPrimaryKeyModel
+inner	auditlog_tests/tests.py	/^        def inner(request):$/;"	f	function:MiddlewareTest.side_effect
+integer	auditlog_tests/models.py	/^    integer = models.IntegerField(blank=True, null=True)$/;"	v	class:AltPrimaryKeyModel
+integer	auditlog_tests/models.py	/^    integer = models.IntegerField(blank=True, null=True)$/;"	v	class:NoDeleteHistoryModel
+integer	auditlog_tests/models.py	/^    integer = models.IntegerField(blank=True, null=True)$/;"	v	class:SimpleModel
+integer	auditlog_tests/models.py	/^    integer = models.IntegerField(blank=True, null=True)$/;"	v	class:UUIDPrimaryKeyModel
+itertools	auditlog_tests/tests.py	/^import itertools$/;"	i
+json	auditlog/mixins.py	/^import json$/;"	i
+json	auditlog/models.py	/^import json$/;"	i
+json	auditlog/receivers.py	/^import json$/;"	i
+json	auditlog_tests/models.py	/^    json = models.JSONField(default=dict)$/;"	v	class:JSONModel
+json	auditlog_tests/tests.py	/^import json$/;"	i
+key	auditlog_tests/models.py	/^    key = models.CharField(max_length=100, primary_key=True)$/;"	v	class:AltPrimaryKeyModel
+label	auditlog_tests/models.py	/^    label = models.CharField(max_length=100)$/;"	v	class:AdditionalDataIncludedModel
+label	auditlog_tests/models.py	/^    label = models.CharField(max_length=100)$/;"	v	class:DateTimeFieldModel
+label	auditlog_tests/models.py	/^    label = models.CharField(max_length=100)$/;"	v	class:SimpleExcludeModel
+label	auditlog_tests/models.py	/^    label = models.CharField(max_length=24, unique=True)$/;"	v	class:SerializeThisModel
+label	auditlog_tests/models.py	/^    label = models.CharField(null=True, max_length=100)$/;"	v	class:SimpleIncludeModel
+latest_array_change	auditlog_tests/tests.py	/^    def latest_array_change(self):$/;"	m	class:PostgresArrayFieldModelTest
+license	setup.py	/^    license="MIT",$/;"	v
+list_display	auditlog/admin.py	/^    list_display = ["created", "resource_url", "action", "msg_short", "user_url"]$/;"	v	class:LogEntryAdmin
+list_filter	auditlog/admin.py	/^    list_filter = ["action", ResourceTypeFilter]$/;"	v	class:LogEntryAdmin
+list_select_related	auditlog/admin.py	/^    list_select_related = ["content_type", "actor"]$/;"	v	class:LogEntryAdmin
+localtime	auditlog/mixins.py	/^from django.utils.timezone import localtime$/;"	i
+log_access	auditlog/receivers.py	/^def log_access(sender, instance, **kwargs):$/;"	f
+log_access	auditlog/registry.py	/^        from auditlog.receivers import log_access, log_create, log_delete, log_update$/;"	i
+log_create	auditlog/models.py	/^    def log_create(self, instance, **kwargs):$/;"	m	class:LogEntryManager
+log_create	auditlog/receivers.py	/^def log_create(sender, instance, created, **kwargs):$/;"	f
+log_create	auditlog/registry.py	/^        from auditlog.receivers import log_access, log_create, log_delete, log_update$/;"	i
+log_delete	auditlog/receivers.py	/^def log_delete(sender, instance, **kwargs):$/;"	f
+log_delete	auditlog/registry.py	/^        from auditlog.receivers import log_access, log_create, log_delete, log_update$/;"	i
+log_m2m_changes	auditlog/models.py	/^    def log_m2m_changes($/;"	m	class:LogEntryManager
+log_m2m_changes	auditlog/receivers.py	/^    def log_m2m_changes(signal, action, **kwargs):$/;"	f	function:make_log_m2m_changes
+log_update	auditlog/receivers.py	/^def log_update(sender, instance, **kwargs):$/;"	f
+log_update	auditlog/registry.py	/^        from auditlog.receivers import log_access, log_create, log_delete, log_update$/;"	i
+long_description	setup.py	/^    long_description = readme_file.read()$/;"	v
+long_description	setup.py	/^    long_description=long_description,$/;"	v
+long_description_content_type	setup.py	/^    long_description_content_type="text\/markdown",$/;"	v
+longchar	auditlog_tests/models.py	/^    longchar = models.CharField(max_length=255)$/;"	v	class:CharfieldTextfieldModel
+longtextfield	auditlog_tests/models.py	/^    longtextfield = models.TextField()$/;"	v	class:CharfieldTextfieldModel
+lookups	auditlog/filters.py	/^    def lookups(self, request, model_admin):$/;"	m	class:ResourceTypeFilter
+m2m_only_auditlog	auditlog_tests/models.py	/^m2m_only_auditlog = AuditlogModelRegistry(create=False, update=False, delete=False)$/;"	v
+make_log_m2m_changes	auditlog/receivers.py	/^def make_log_m2m_changes(field_name):$/;"	f
+make_log_m2m_changes	auditlog/registry.py	/^        from auditlog.receivers import make_log_m2m_changes$/;"	i
+make_object	auditlog_tests/test_commands.py	/^    def make_object(self):$/;"	m	class:AuditlogFlushTest
+make_object	auditlog_tests/tests.py	/^    def make_object(self):$/;"	m	class:AltPrimaryKeyModelBase
+make_object	auditlog_tests/tests.py	/^    def make_object(self):$/;"	m	class:ProxyModelBase
+make_object	auditlog_tests/tests.py	/^    def make_object(self):$/;"	m	class:SimpleModelTest
+make_object	auditlog_tests/tests.py	/^    def make_object(self):$/;"	m	class:UUIDPrimaryKeyModelModelBase
+make_object	auditlog_tests/tests.py	/^    def make_object(self):$/;"	m	class:WithActorMixin
+management	auditlog_tests/tests.py	/^from django.core import management$/;"	i
+mark_safe	auditlog/mixins.py	/^from django.utils.safestring import mark_safe$/;"	i
+mask_fields	auditlog_tests/models.py	/^    mask_fields=["mask_me"],$/;"	v
+mask_me	auditlog_tests/models.py	/^    mask_me = models.CharField(max_length=255, null=True)$/;"	v	class:SerializeThisModel
+mask_str	auditlog/diff.py	/^def mask_str(value: str) -> str:$/;"	f
+mask_str	auditlog/models.py	/^from auditlog.diff import mask_str$/;"	i
+master_doc	docs/source/conf.py	/^master_doc = "index"$/;"	v
+migrations	auditlog/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	i
+migrations	auditlog/migrations/0002_auto_support_long_primary_keys.py	/^from django.db import migrations, models$/;"	i
+migrations	auditlog/migrations/0003_logentry_remote_addr.py	/^from django.db import migrations, models$/;"	i
+migrations	auditlog/migrations/0004_logentry_detailed_object_repr.py	/^from django.db import migrations, models$/;"	i
+migrations	auditlog/migrations/0005_logentry_additional_data_verbose_name.py	/^from django.db import migrations, models$/;"	i
+migrations	auditlog/migrations/0006_object_pk_index.py	/^from django.db import migrations, models$/;"	i
+migrations	auditlog/migrations/0007_object_pk_type.py	/^from django.db import migrations, models$/;"	i
+migrations	auditlog/migrations/0008_action_index.py	/^from django.db import migrations, models$/;"	i
+migrations	auditlog/migrations/0009_alter_logentry_additional_data.py	/^from django.db import migrations, models$/;"	i
+migrations	auditlog/migrations/0010_alter_logentry_timestamp.py	/^from django.db import migrations, models$/;"	i
+migrations	auditlog/migrations/0011_logentry_serialized_data.py	/^from django.db import migrations, models$/;"	i
+migrations	auditlog/migrations/0012_add_logentry_action_access.py	/^from django.db import migrations, models$/;"	i
+mock	auditlog_tests/test_commands.py	/^from unittest import mock$/;"	i
+mock	auditlog_tests/tests.py	/^from unittest import mock$/;"	i
+model	auditlog_tests/views.py	/^    model = SimpleModel$/;"	v	class:SimpleModelDetailview
+model_instance_diff	auditlog/diff.py	/^def model_instance_diff(old, new, fields_to_check=None):$/;"	f
+model_instance_diff	auditlog/receivers.py	/^from auditlog.diff import model_instance_diff$/;"	i
+model_instance_diff	auditlog_tests/tests.py	/^from auditlog.diff import model_instance_diff$/;"	i
+model_name	auditlog/migrations/0002_auto_support_long_primary_keys.py	/^            model_name="logentry",$/;"	v	class:Migration
+model_name	auditlog/migrations/0003_logentry_remote_addr.py	/^            model_name="logentry",$/;"	v	class:Migration
+model_name	auditlog/migrations/0004_logentry_detailed_object_repr.py	/^            model_name="logentry",$/;"	v	class:Migration
+model_name	auditlog/migrations/0005_logentry_additional_data_verbose_name.py	/^            model_name="logentry",$/;"	v	class:Migration
+model_name	auditlog/migrations/0006_object_pk_index.py	/^            model_name="logentry",$/;"	v	class:Migration
+model_name	auditlog/migrations/0007_object_pk_type.py	/^            model_name="logentry",$/;"	v	class:Migration
+model_name	auditlog/migrations/0008_action_index.py	/^            model_name="logentry",$/;"	v	class:Migration
+model_name	auditlog/migrations/0009_alter_logentry_additional_data.py	/^            model_name="logentry",$/;"	v	class:Migration
+model_name	auditlog/migrations/0010_alter_logentry_timestamp.py	/^            model_name="logentry",$/;"	v	class:Migration
+model_name	auditlog/migrations/0011_logentry_serialized_data.py	/^            model_name="logentry",$/;"	v	class:Migration
+model_name	auditlog/migrations/0012_add_logentry_action_access.py	/^            model_name="logentry",$/;"	v	class:Migration
+models	auditlog/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	i
+models	auditlog/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	i
+models	auditlog/migrations/0002_auto_support_long_primary_keys.py	/^from django.db import migrations, models$/;"	i
+models	auditlog/migrations/0003_logentry_remote_addr.py	/^from django.db import migrations, models$/;"	i
+models	auditlog/migrations/0004_logentry_detailed_object_repr.py	/^from django.db import migrations, models$/;"	i
+models	auditlog/migrations/0005_logentry_additional_data_verbose_name.py	/^from django.db import migrations, models$/;"	i
+models	auditlog/migrations/0006_object_pk_index.py	/^from django.db import migrations, models$/;"	i
+models	auditlog/migrations/0007_object_pk_type.py	/^from django.db import migrations, models$/;"	i
+models	auditlog/migrations/0008_action_index.py	/^from django.db import migrations, models$/;"	i
+models	auditlog/migrations/0009_alter_logentry_additional_data.py	/^from django.db import migrations, models$/;"	i
+models	auditlog/migrations/0010_alter_logentry_timestamp.py	/^from django.db import migrations, models$/;"	i
+models	auditlog/migrations/0011_logentry_serialized_data.py	/^from django.db import migrations, models$/;"	i
+models	auditlog/migrations/0012_add_logentry_action_access.py	/^from django.db import migrations, models$/;"	i
+models	auditlog/models.py	/^from django.db import DEFAULT_DB_ALIAS, models$/;"	i
+models	auditlog_tests/models.py	/^from django.db import models$/;"	i
+msg	auditlog/mixins.py	/^    def msg(self, obj):$/;"	m	class:LogEntryAdminMixin
+msg_short	auditlog/mixins.py	/^    def msg_short(self, obj):$/;"	m	class:LogEntryAdminMixin
+multiplechoice	auditlog_tests/models.py	/^    multiplechoice = models.CharField(max_length=255, choices=STATUS_CHOICES)$/;"	v	class:ChoicesFieldModel
+naive_dt	auditlog_tests/models.py	/^    naive_dt = models.DateTimeField(null=True, blank=True)$/;"	v	class:DateTimeFieldModel
+name	auditlog/apps.py	/^    name = "auditlog"$/;"	v	class:AuditlogConfig
+name	auditlog/migrations/0001_initial.py	/^            name="LogEntry",$/;"	v	class:Migration
+name	auditlog/migrations/0002_auto_support_long_primary_keys.py	/^            name="object_id",$/;"	v	class:Migration
+name	auditlog/migrations/0003_logentry_remote_addr.py	/^            name="remote_addr",$/;"	v	class:Migration
+name	auditlog/migrations/0004_logentry_detailed_object_repr.py	/^            name="additional_data",$/;"	v	class:Migration
+name	auditlog/migrations/0005_logentry_additional_data_verbose_name.py	/^            name="additional_data",$/;"	v	class:Migration
+name	auditlog/migrations/0006_object_pk_index.py	/^            name="object_pk",$/;"	v	class:Migration
+name	auditlog/migrations/0007_object_pk_type.py	/^            name="object_pk",$/;"	v	class:Migration
+name	auditlog/migrations/0008_action_index.py	/^            name="action",$/;"	v	class:Migration
+name	auditlog/migrations/0009_alter_logentry_additional_data.py	/^            name="additional_data",$/;"	v	class:Migration
+name	auditlog/migrations/0010_alter_logentry_timestamp.py	/^            name="timestamp",$/;"	v	class:Migration
+name	auditlog/migrations/0011_logentry_serialized_data.py	/^            name="serialized_data",$/;"	v	class:Migration
+name	auditlog/migrations/0012_add_logentry_action_access.py	/^            name="action",$/;"	v	class:Migration
+name	auditlog_tests/apps.py	/^    name = "auditlog_tests"$/;"	v	class:AuditlogTestConfig
+name	auditlog_tests/urls.py	/^        name="simplemodel-detail",$/;"	v
+name	setup.py	/^    name="django-auditlog",$/;"	v
+natural_key	auditlog_tests/models.py	/^    def natural_key(self):$/;"	m	class:SerializeThisModel
+nested	auditlog_tests/models.py	/^    nested = models.JSONField()$/;"	v	class:SerializeThisModel
+noqa	docs/source/conf.py	/^import django  # noqa: E402$/;"	i
+not_mapped	auditlog_tests/models.py	/^    not_mapped = models.CharField(max_length=100)$/;"	v	class:SimpleMappingModel
+not_this	auditlog_tests/models.py	/^    not_this = models.CharField(max_length=24)$/;"	v	class:SerializeOnlySomeOfThisModel
+now	auditlog_tests/tests.py	/^    now = django_timezone.now()$/;"	v	class:DateTimeFieldModelTest
+null	auditlog/migrations/0001_initial.py	/^                        null=True,$/;"	v	class:Migration
+null	auditlog/models.py	/^        null=True,$/;"	v	class:LogEntry.Action
+nullable	auditlog_tests/models.py	/^    nullable = models.IntegerField(null=True)$/;"	v	class:SerializeThisModel
+object_id	auditlog/models.py	/^    object_id = models.BigIntegerField($/;"	v	class:LogEntry
+object_pk	auditlog/models.py	/^    object_pk = models.CharField($/;"	v	class:LogEntry
+object_repr	auditlog/models.py	/^    object_repr = models.TextField(verbose_name=_("object representation"))$/;"	v	class:LogEntry
+objects	auditlog/models.py	/^    objects = LogEntryManager()$/;"	v	class:LogEntry
+on_delete	auditlog/migrations/0001_initial.py	/^                        on_delete=django.db.models.deletion.CASCADE,$/;"	v	class:Migration
+on_delete	auditlog/migrations/0001_initial.py	/^                        on_delete=django.db.models.deletion.SET_NULL,$/;"	v	class:Migration
+on_delete	auditlog/models.py	/^        on_delete=models.CASCADE,$/;"	v	class:LogEntry.Action
+on_delete	auditlog/models.py	/^        on_delete=models.SET_NULL,$/;"	v	class:LogEntry.Action
+one_to_one	auditlog_tests/models.py	/^    one_to_one = models.OneToOneField($/;"	v	class:RelatedModel
+operations	auditlog/migrations/0001_initial.py	/^    operations = [$/;"	v	class:Migration
+operations	auditlog/migrations/0002_auto_support_long_primary_keys.py	/^    operations = [$/;"	v	class:Migration
+operations	auditlog/migrations/0003_logentry_remote_addr.py	/^    operations = [$/;"	v	class:Migration
+operations	auditlog/migrations/0004_logentry_detailed_object_repr.py	/^    operations = [$/;"	v	class:Migration
+operations	auditlog/migrations/0005_logentry_additional_data_verbose_name.py	/^    operations = [$/;"	v	class:Migration
+operations	auditlog/migrations/0006_object_pk_index.py	/^    operations = [$/;"	v	class:Migration
+operations	auditlog/migrations/0007_object_pk_type.py	/^    operations = [$/;"	v	class:Migration
+operations	auditlog/migrations/0008_action_index.py	/^    operations = [$/;"	v	class:Migration
+operations	auditlog/migrations/0009_alter_logentry_additional_data.py	/^    operations = [$/;"	v	class:Migration
+operations	auditlog/migrations/0010_alter_logentry_timestamp.py	/^    operations = [$/;"	v	class:Migration
+operations	auditlog/migrations/0011_logentry_serialized_data.py	/^    operations = [$/;"	v	class:Migration
+operations	auditlog/migrations/0012_add_logentry_action_access.py	/^    operations = [$/;"	v	class:Migration
+options	auditlog/migrations/0001_initial.py	/^            options={$/;"	v	class:Migration
+ordering	auditlog/models.py	/^        ordering = ["-timestamp"]$/;"	v	class:LogEntry.Meta
+os	auditlog_tests/manage.py	/^import os$/;"	i
+os	auditlog_tests/test_settings.py	/^import os$/;"	i
+os	docs/source/conf.py	/^import os$/;"	i
+os	runtests.py	/^import os$/;"	i
+os	setup.py	/^import os$/;"	i
+override_settings	auditlog_tests/tests.py	/^from django.test import RequestFactory, TestCase, override_settings$/;"	i
+packages	setup.py	/^    packages=[$/;"	v
+parameter_name	auditlog/filters.py	/^    parameter_name = "resource_type"$/;"	v	class:ResourceTypeFilter
+parser	auditlog/models.py	/^from dateutil import parser$/;"	i
+partial	auditlog/context.py	/^from functools import partial$/;"	i
+path	auditlog_tests/urls.py	/^from django.urls import path$/;"	i
+pre_save	auditlog/context.py	/^from django.db.models.signals import pre_save$/;"	i
+pre_save	auditlog_tests/tests.py	/^from django.db.models.signals import pre_save$/;"	i
+pretty_name	auditlog/mixins.py	/^from django.forms.utils import pretty_name$/;"	i
+primary_key	auditlog/migrations/0001_initial.py	/^                        primary_key=True,$/;"	v	class:Migration
+project	docs/source/conf.py	/^project = "django-auditlog"$/;"	v
+project_urls	setup.py	/^    project_urls={$/;"	v
+proxy	auditlog_tests/models.py	/^        proxy = True$/;"	v	class:ProxyModel.Meta
+queryset	auditlog/filters.py	/^    def queryset(self, request, queryset):$/;"	m	class:ResourceTypeFilter
+readonly_fields	auditlog/admin.py	/^    readonly_fields = ["created", "resource_url", "action", "user_url", "msg"]$/;"	v	class:LogEntryAdmin
+ready	auditlog/apps.py	/^    def ready(self):$/;"	m	class:AuditlogConfig
+recursive	auditlog_tests/models.py	/^    recursive = models.ManyToManyField("self")$/;"	v	class:ManyRelatedModel
+register	auditlog/registry.py	/^    def register($/;"	m	class:AuditlogModelRegistry
+register_from_settings	auditlog/registry.py	/^    def register_from_settings(self):$/;"	m	class:AuditlogModelRegistry
+registrar	auditlog/registry.py	/^        def registrar(cls):$/;"	f	function:AuditlogModelRegistry.register
+related	auditlog_tests/models.py	/^    related = models.ForeignKey($/;"	v	class:RelatedModel
+related	auditlog_tests/models.py	/^    related = models.ForeignKey(to=SimpleModel, on_delete=models.CASCADE)$/;"	v	class:AdditionalDataIncludedModel
+related	auditlog_tests/models.py	/^    related = models.ManyToManyField("ManyRelatedOtherModel", related_name="related")$/;"	v	class:ManyRelatedModel
+related_name	auditlog/migrations/0001_initial.py	/^                        related_name="+",$/;"	v	class:Migration
+related_name	auditlog/models.py	/^        related_name="+",$/;"	v	class:LogEntry.Action
+release	docs/source/conf.py	/^release = get_distribution("django-auditlog").version$/;"	v
+remote_addr	auditlog/models.py	/^    remote_addr = models.GenericIPAddressField($/;"	v	class:LogEntry
+render_to_response	auditlog/mixins.py	/^    def render_to_response(self, context, **response_kwargs):$/;"	m	class:LogAccessMixin
+resource_url	auditlog/mixins.py	/^    def resource_url(self, obj):$/;"	m	class:LogEntryAdminMixin
+reverse	auditlog_tests/tests.py	/^from django.urls import reverse$/;"	i
+search_fields	auditlog/admin.py	/^    search_fields = [$/;"	v	class:LogEntryAdmin
+sequence	auditlog_tests/tests.py	/^    sequence = itertools.count()$/;"	v	class:WithActorMixin
+serialize	auditlog/migrations/0001_initial.py	/^                        serialize=False,$/;"	v	class:Migration
+serialize_auditlog_fields_only	auditlog_tests/models.py	/^    serialize_auditlog_fields_only=True,$/;"	v
+serialize_data	auditlog_tests/models.py	/^    serialize_data=True,$/;"	v
+serialize_kwargs	auditlog_tests/models.py	/^    serialize_kwargs={"use_natural_foreign_keys": True},$/;"	v
+serialize_this	auditlog_tests/models.py	/^    serialize_this = models.ForeignKey(to=SerializeThisModel, on_delete=models.CASCADE)$/;"	v	class:SerializeNaturalKeyRelatedModel
+serialize_this	auditlog_tests/models.py	/^    serialize_this = models.ForeignKey(to=SerializeThisModel, on_delete=models.CASCADE)$/;"	v	class:SerializePrimaryKeyRelatedModel
+serialized_data	auditlog/models.py	/^    serialized_data = models.JSONField(null=True)$/;"	v	class:LogEntry
+serializers	auditlog/models.py	/^from django.core import serializers$/;"	i
+setUp	auditlog_tests/test_commands.py	/^    def setUp(self):$/;"	m	class:AuditlogFlushTest
+setUp	auditlog_tests/tests.py	/^    def setUp(self):$/;"	m	class:AdminPanelTest
+setUp	auditlog_tests/tests.py	/^    def setUp(self):$/;"	m	class:CharfieldTextfieldModelTest
+setUp	auditlog_tests/tests.py	/^    def setUp(self):$/;"	m	class:ChoicesFieldModelTest
+setUp	auditlog_tests/tests.py	/^    def setUp(self):$/;"	m	class:DateTimeFieldModelTest
+setUp	auditlog_tests/tests.py	/^    def setUp(self):$/;"	m	class:DiffMsgTest
+setUp	auditlog_tests/tests.py	/^    def setUp(self):$/;"	m	class:JSONModelTest
+setUp	auditlog_tests/tests.py	/^    def setUp(self):$/;"	m	class:ManyRelatedModelTest
+setUp	auditlog_tests/tests.py	/^    def setUp(self):$/;"	m	class:MiddlewareTest
+setUp	auditlog_tests/tests.py	/^    def setUp(self):$/;"	m	class:PostgresArrayFieldModelTest
+setUp	auditlog_tests/tests.py	/^    def setUp(self):$/;"	m	class:RegisterModelSettingsTest
+setUp	auditlog_tests/tests.py	/^    def setUp(self):$/;"	m	class:SimpleModelTest
+setUp	auditlog_tests/tests.py	/^    def setUp(self):$/;"	m	class:TestAccessLog
+setUp	auditlog_tests/tests.py	/^    def setUp(self):$/;"	m	class:TestModelSerialization
+setUp	auditlog_tests/tests.py	/^    def setUp(self):$/;"	m	class:UnregisterTest
+setUp	auditlog_tests/tests.py	/^    def setUp(self):$/;"	m	class:WithActorMixin
+set_actor	auditlog/context.py	/^def set_actor(actor, remote_addr=None):$/;"	f
+set_actor	auditlog/middleware.py	/^from auditlog.context import set_actor$/;"	i
+set_actor	auditlog_tests/tests.py	/^from auditlog.context import disable_auditlog, set_actor$/;"	i
+settings	auditlog/conf.py	/^from django.conf import settings$/;"	i
+settings	auditlog/diff.py	/^from django.conf import settings$/;"	i
+settings	auditlog/migrations/0001_initial.py	/^from django.conf import settings$/;"	i
+settings	auditlog/mixins.py	/^from django.conf import settings$/;"	i
+settings	auditlog/models.py	/^from django.conf import settings$/;"	i
+settings	auditlog/receivers.py	/^from django.conf import settings$/;"	i
+settings	auditlog/registry.py	/^from auditlog.conf import settings$/;"	i
+settings	auditlog_tests/tests.py	/^from django.conf import settings$/;"	i
+settings	runtests.py	/^from django.conf import settings$/;"	i
+setup	setup.py	/^from setuptools import setup$/;"	i
+setup_requires	setup.py	/^    setup_requires=["setuptools_scm"],$/;"	v
+side_effect	auditlog_tests/tests.py	/^    def side_effect(self, assertion):$/;"	m	class:MiddlewareTest
+sku	auditlog_tests/models.py	/^    sku = models.CharField(max_length=100)$/;"	v	class:SimpleMappingModel
+smart_str	auditlog/diff.py	/^from django.utils.encoding import smart_str$/;"	i
+smart_str	auditlog/models.py	/^from django.utils.encoding import smart_str$/;"	i
+status	auditlog_tests/models.py	/^    status = models.CharField(max_length=1, choices=STATUS_CHOICES)$/;"	v	class:ChoicesFieldModel
+subheading	auditlog_tests/models.py	/^    subheading = models.CharField(max_length=255)$/;"	v	class:SerializeNaturalKeyRelatedModel
+subheading	auditlog_tests/models.py	/^    subheading = models.CharField(max_length=255)$/;"	v	class:SerializePrimaryKeyRelatedModel
+sys	auditlog_tests/manage.py	/^import sys$/;"	i
+sys	docs/source/conf.py	/^import sys$/;"	i
+sys	runtests.py	/^import sys$/;"	i
+tearDown	auditlog_tests/tests.py	/^    def tearDown(self):$/;"	m	class:DateTimeFieldModelTest
+tearDown	auditlog_tests/tests.py	/^    def tearDown(self):$/;"	m	class:RegisterModelSettingsTest
+tearDown	auditlog_tests/tests.py	/^    def tearDown(self):$/;"	m	class:UnregisterTest
+tearDown	auditlog_tests/tests.py	/^    def tearDown(self):$/;"	m	class:WithActorMixin
+template_name	auditlog_tests/views.py	/^    template_name = "simplemodel_detail.html"$/;"	v	class:SimpleModelDetailview
+templates_path	docs/source/conf.py	/^templates_path = ["_templates"]$/;"	v
+test_access_log	auditlog_tests/tests.py	/^    def test_access_log(self):$/;"	m	class:TestAccessLog
+test_additional_data	auditlog_tests/tests.py	/^    def test_additional_data(self):$/;"	m	class:ManyRelatedModelTest
+test_auditlog_admin	auditlog_tests/tests.py	/^    def test_auditlog_admin(self):$/;"	m	class:AdminPanelTest
+test_before_date	auditlog_tests/test_commands.py	/^    def test_before_date(self):$/;"	m	class:AuditlogFlushTest
+test_before_date_input	auditlog_tests/test_commands.py	/^    def test_before_date_input(self):$/;"	m	class:AuditlogFlushTest
+test_changes_display_dict_arrayfield	auditlog_tests/tests.py	/^    def test_changes_display_dict_arrayfield(self):$/;"	m	class:PostgresArrayFieldModelTest
+test_changes_display_dict_date	auditlog_tests/tests.py	/^    def test_changes_display_dict_date(self):$/;"	m	class:DateTimeFieldModelTest
+test_changes_display_dict_datetime	auditlog_tests/tests.py	/^    def test_changes_display_dict_datetime(self):$/;"	m	class:DateTimeFieldModelTest
+test_changes_display_dict_longchar	auditlog_tests/tests.py	/^    def test_changes_display_dict_longchar(self):$/;"	m	class:CharfieldTextfieldModelTest
+test_changes_display_dict_longtextfield	auditlog_tests/tests.py	/^    def test_changes_display_dict_longtextfield(self):$/;"	m	class:CharfieldTextfieldModelTest
+test_changes_display_dict_many_to_one_relation	auditlog_tests/tests.py	/^    def test_changes_display_dict_many_to_one_relation(self):$/;"	m	class:ChoicesFieldModelTest
+test_changes_display_dict_multiplechoice	auditlog_tests/tests.py	/^    def test_changes_display_dict_multiplechoice(self):$/;"	m	class:ChoicesFieldModelTest
+test_changes_display_dict_single_choice	auditlog_tests/tests.py	/^    def test_changes_display_dict_single_choice(self):$/;"	m	class:ChoicesFieldModelTest
+test_changes_display_dict_time	auditlog_tests/tests.py	/^    def test_changes_display_dict_time(self):$/;"	m	class:DateTimeFieldModelTest
+test_changes_msg_create	auditlog_tests/tests.py	/^    def test_changes_msg_create(self):$/;"	m	class:DiffMsgTest
+test_changes_msg_delete	auditlog_tests/tests.py	/^    def test_changes_msg_delete(self):$/;"	m	class:DiffMsgTest
+test_changes_msg_m2m	auditlog_tests/tests.py	/^    def test_changes_msg_m2m(self):$/;"	m	class:DiffMsgTest
+test_changes_msg_update	auditlog_tests/tests.py	/^    def test_changes_msg_update(self):$/;"	m	class:DiffMsgTest
+test_create	auditlog_tests/tests.py	/^    def test_create(self):$/;"	m	class:DisableTest
+test_create	auditlog_tests/tests.py	/^    def test_create(self):$/;"	m	class:SimpleModelTest
+test_create_log_to_object_from_other_database	auditlog_tests/tests.py	/^    def test_create_log_to_object_from_other_database(self):$/;"	m	class:SimpleModelTest
+test_create_with_context_manager	auditlog_tests/tests.py	/^    def test_create_with_context_manager(self):$/;"	m	class:DisableTest
+test_created_timezone	auditlog_tests/tests.py	/^    def test_created_timezone(self):$/;"	m	class:AdminPanelTest
+test_delete	auditlog_tests/tests.py	/^    def test_delete(self):$/;"	m	class:SimpleModelTest
+test_delete_related	auditlog_tests/tests.py	/^    def test_delete_related(self):$/;"	m	class:NoDeleteHistoryTest
+test_diff_models_with_related_fields	auditlog_tests/tests.py	/^    def test_diff_models_with_related_fields(self):$/;"	m	class:ModelInstanceDiffTest
+test_django_update_fields_edge_cases	auditlog_tests/tests.py	/^    def test_django_update_fields_edge_cases(self):$/;"	m	class:SimpleModelTest
+test_does_not_serialize_data_when_not_configured	auditlog_tests/tests.py	/^    def test_does_not_serialize_data_when_not_configured(self):$/;"	m	class:TestModelSerialization
+test_exception	auditlog_tests/tests.py	/^    def test_exception(self):$/;"	m	class:MiddlewareTest
+test_flush_input_yes	auditlog_tests/test_commands.py	/^    def test_flush_input_yes(self):$/;"	m	class:AuditlogFlushTest
+test_flush_no	auditlog_tests/test_commands.py	/^    def test_flush_no(self):$/;"	m	class:AuditlogFlushTest
+test_flush_yes	auditlog_tests/test_commands.py	/^    def test_flush_yes(self):$/;"	m	class:AuditlogFlushTest
+test_get_exclude_models	auditlog_tests/tests.py	/^    def test_get_exclude_models(self):$/;"	m	class:RegisterModelSettingsTest
+test_get_for_object	auditlog_tests/tests.py	/^    def test_get_for_object(self):$/;"	m	class:UUIDPrimaryKeyModelModelBase
+test_get_for_objects	auditlog_tests/tests.py	/^    def test_get_for_objects(self):$/;"	m	class:UUIDPrimaryKeyModelModelBase
+test_get_model_classes	auditlog_tests/tests.py	/^    def test_get_model_classes(self):$/;"	m	class:RegisterModelSettingsTest
+test_get_remote_addr	auditlog_tests/tests.py	/^    def test_get_remote_addr(self):$/;"	m	class:MiddlewareTest
+test_m2m	auditlog_tests/tests.py	/^    def test_m2m(self):$/;"	m	class:DisableTest
+test_model_with_additional_data	auditlog_tests/tests.py	/^    def test_model_with_additional_data(self):$/;"	m	class:AdditionalDataModelTest
+test_model_with_different_date	auditlog_tests/tests.py	/^    def test_model_with_different_date(self):$/;"	m	class:DateTimeFieldModelTest
+test_model_with_different_datetime	auditlog_tests/tests.py	/^    def test_model_with_different_datetime(self):$/;"	m	class:DateTimeFieldModelTest
+test_model_with_different_time	auditlog_tests/tests.py	/^    def test_model_with_different_time(self):$/;"	m	class:DateTimeFieldModelTest
+test_model_with_different_time_and_timezone	auditlog_tests/tests.py	/^    def test_model_with_different_time_and_timezone(self):$/;"	m	class:DateTimeFieldModelTest
+test_model_with_different_timezone	auditlog_tests/tests.py	/^    def test_model_with_different_timezone(self):$/;"	m	class:DateTimeFieldModelTest
+test_model_with_same_time	auditlog_tests/tests.py	/^    def test_model_with_same_time(self):$/;"	m	class:DateTimeFieldModelTest
+test_model_without_additional_data	auditlog_tests/tests.py	/^    def test_model_without_additional_data(self):$/;"	m	class:AdditionalDataModelTest
+test_no_delete_related	auditlog_tests/tests.py	/^    def test_no_delete_related(self):$/;"	m	class:NoDeleteHistoryTest
+test_recreate	auditlog_tests/tests.py	/^    def test_recreate(self):$/;"	m	class:SimpleModelTest
+test_recursive	auditlog_tests/tests.py	/^    def test_recursive(self):$/;"	m	class:ManyRelatedModelTest
+test_register_exclude_fields	auditlog_tests/tests.py	/^    def test_register_exclude_fields(self):$/;"	m	class:SimpleExcludeModelTest
+test_register_from_settings_invalid_settings	auditlog_tests/tests.py	/^    def test_register_from_settings_invalid_settings(self):$/;"	m	class:RegisterModelSettingsTest
+test_register_from_settings_register_all_models_with_exclude_models	auditlog_tests/tests.py	/^    def test_register_from_settings_register_all_models_with_exclude_models(self):$/;"	m	class:RegisterModelSettingsTest
+test_register_from_settings_register_models	auditlog_tests/tests.py	/^    def test_register_from_settings_register_models(self):$/;"	m	class:RegisterModelSettingsTest
+test_register_include_fields	auditlog_tests/tests.py	/^    def test_register_include_fields(self):$/;"	m	class:SimpleIncludeModelTest
+test_register_mapping_fields	auditlog_tests/tests.py	/^    def test_register_mapping_fields(self):$/;"	m	class:SimpleMappingModelTest
+test_register_mask_fields	auditlog_tests/tests.py	/^    def test_register_mask_fields(self):$/;"	m	class:SimpeMaskedFieldsModelTest
+test_register_models_no_models	auditlog_tests/tests.py	/^    def test_register_models_no_models(self):$/;"	m	class:RegisterModelSettingsTest
+test_register_models_register_app	auditlog_tests/tests.py	/^    def test_register_models_register_app(self):$/;"	m	class:RegisterModelSettingsTest
+test_register_models_register_model_with_attrs	auditlog_tests/tests.py	/^    def test_register_models_register_model_with_attrs(self):$/;"	m	class:RegisterModelSettingsTest
+test_register_models_register_model_with_m2m_fields	auditlog_tests/tests.py	/^    def test_register_models_register_model_with_m2m_fields(self):$/;"	m	class:RegisterModelSettingsTest
+test_register_models_register_single_model	auditlog_tests/tests.py	/^    def test_register_models_register_single_model(self):$/;"	m	class:RegisterModelSettingsTest
+test_registration_error_if_bad_serialize_params	auditlog_tests/tests.py	/^    def test_registration_error_if_bad_serialize_params(self):$/;"	m	class:RegisterModelSettingsTest
+test_related_add_from_first_side	auditlog_tests/tests.py	/^    def test_related_add_from_first_side(self):$/;"	m	class:ManyRelatedModelTest
+test_related_add_from_other_side	auditlog_tests/tests.py	/^    def test_related_add_from_other_side(self):$/;"	m	class:ManyRelatedModelTest
+test_related_clear_from_first_side	auditlog_tests/tests.py	/^    def test_related_clear_from_first_side(self):$/;"	m	class:ManyRelatedModelTest
+test_related_clear_from_other_side	auditlog_tests/tests.py	/^    def test_related_clear_from_other_side(self):$/;"	m	class:ManyRelatedModelTest
+test_related_remove_from_first_side	auditlog_tests/tests.py	/^    def test_related_remove_from_first_side(self):$/;"	m	class:ManyRelatedModelTest
+test_related_remove_from_other_side	auditlog_tests/tests.py	/^    def test_related_remove_from_other_side(self):$/;"	m	class:ManyRelatedModelTest
+test_request	auditlog_tests/tests.py	/^    def test_request(self):$/;"	m	class:MiddlewareTest
+test_request_anonymous	auditlog_tests/tests.py	/^    def test_request_anonymous(self):$/;"	m	class:MiddlewareTest
+test_runner	runtests.py	/^    test_runner = TestRunner()$/;"	v
+test_serialize_mask_fields	auditlog_tests/tests.py	/^    def test_serialize_mask_fields(self):$/;"	m	class:TestModelSerialization
+test_serialize_only_auditlog_fields	auditlog_tests/tests.py	/^    def test_serialize_only_auditlog_fields(self):$/;"	m	class:TestModelSerialization
+test_serialize_related	auditlog_tests/tests.py	/^    def test_serialize_related(self):$/;"	m	class:TestModelSerialization
+test_serialize_related_with_kwargs	auditlog_tests/tests.py	/^    def test_serialize_related_with_kwargs(self):$/;"	m	class:TestModelSerialization
+test_serialize_string_representations	auditlog_tests/tests.py	/^    def test_serialize_string_representations(self):$/;"	m	class:TestModelSerialization
+test_serializes_data_on_create	auditlog_tests/tests.py	/^    def test_serializes_data_on_create(self):$/;"	m	class:TestModelSerialization
+test_serializes_data_on_delete	auditlog_tests/tests.py	/^    def test_serializes_data_on_delete(self):$/;"	m	class:TestModelSerialization
+test_serializes_data_on_update	auditlog_tests/tests.py	/^    def test_serializes_data_on_update(self):$/;"	m	class:TestModelSerialization
+test_specified_save_fields_are_excluded_normally	auditlog_tests/tests.py	/^    def test_specified_save_fields_are_excluded_normally(self):$/;"	m	class:SimpleExcludeModelTest
+test_specified_save_fields_are_ignored_if_not_included	auditlog_tests/tests.py	/^    def test_specified_save_fields_are_ignored_if_not_included(self):$/;"	m	class:SimpleIncludeModelTest
+test_unregister_after_log	auditlog_tests/tests.py	/^    def test_unregister_after_log(self):$/;"	m	class:DiffMsgTest
+test_unregister_create	auditlog_tests/tests.py	/^    def test_unregister_create(self):$/;"	m	class:UnregisterTest
+test_unregister_delete	auditlog_tests/tests.py	/^    def test_unregister_delete(self):$/;"	m	class:UnregisterTest
+test_unregister_update	auditlog_tests/tests.py	/^    def test_unregister_update(self):$/;"	m	class:UnregisterTest
+test_update	auditlog_tests/tests.py	/^    def test_update(self):$/;"	m	class:DisableTest
+test_update	auditlog_tests/tests.py	/^    def test_update(self):$/;"	m	class:JSONModelTest
+test_update	auditlog_tests/tests.py	/^    def test_update(self):$/;"	m	class:SimpleModelTest
+test_update_naive_dt	auditlog_tests/tests.py	/^    def test_update_naive_dt(self):$/;"	m	class:DateTimeFieldModelTest
+test_update_specific_field_supplied_via_save_method	auditlog_tests/tests.py	/^    def test_update_specific_field_supplied_via_save_method(self):$/;"	m	class:SimpleModelTest
+test_update_with_context_manager	auditlog_tests/tests.py	/^    def test_update_with_context_manager(self):$/;"	m	class:DisableTest
+test_update_with_no_changes	auditlog_tests/tests.py	/^    def test_update_with_no_changes(self):$/;"	m	class:JSONModelTest
+test_when_field_doesnt_exist	auditlog_tests/tests.py	/^    def test_when_field_doesnt_exist(self):$/;"	m	class:ModelInstanceDiffTest
+text	auditlog_tests/models.py	/^    text = models.TextField()$/;"	v	class:SimpleMaskedModel
+text	auditlog_tests/models.py	/^    text = models.TextField(blank=True)$/;"	v	class:AdditionalDataIncludedModel
+text	auditlog_tests/models.py	/^    text = models.TextField(blank=True)$/;"	v	class:AltPrimaryKeyModel
+text	auditlog_tests/models.py	/^    text = models.TextField(blank=True)$/;"	v	class:SimpleExcludeModel
+text	auditlog_tests/models.py	/^    text = models.TextField(blank=True)$/;"	v	class:SimpleIncludeModel
+text	auditlog_tests/models.py	/^    text = models.TextField(blank=True)$/;"	v	class:SimpleModel
+text	auditlog_tests/models.py	/^    text = models.TextField(blank=True)$/;"	v	class:UUIDPrimaryKeyModel
+this	auditlog_tests/models.py	/^    this = models.CharField(max_length=24)$/;"	v	class:SerializeOnlySomeOfThisModel
+threading	auditlog/context.py	/^import threading$/;"	i
+threadlocal	auditlog/context.py	/^threadlocal = threading.local()$/;"	v
+threadlocal	auditlog/receivers.py	/^from auditlog.context import threadlocal$/;"	i
+time	auditlog/context.py	/^import time$/;"	i
+time	auditlog_tests/models.py	/^    time = models.TimeField()$/;"	v	class:DateTimeFieldModel
+timestamp	auditlog/models.py	/^    timestamp = models.DateTimeField($/;"	v	class:LogEntry
+timestamp	auditlog_tests/models.py	/^    timestamp = models.DateTimeField()$/;"	v	class:DateTimeFieldModel
+timestamp	auditlog_tests/models.py	/^    timestamp = models.DateTimeField()$/;"	v	class:SerializeThisModel
+timezone	auditlog/diff.py	/^from datetime import timezone$/;"	i
+timezone	auditlog/diff.py	/^from django.utils import timezone$/;"	i
+timezone	auditlog/models.py	/^from datetime import timezone$/;"	i
+timezone	auditlog_tests/tests.py	/^from datetime import timezone$/;"	i
+title	auditlog/filters.py	/^    title = "Resource Type"$/;"	v	class:ResourceTypeFilter
+to	auditlog/migrations/0001_initial.py	/^                        to="contenttypes.ContentType",$/;"	v	class:Migration
+to	auditlog/migrations/0001_initial.py	/^                        to=settings.AUTH_USER_MODEL,$/;"	v	class:Migration
+to	auditlog/models.py	/^        to="contenttypes.ContentType",$/;"	v	class:LogEntry.Action
+to	auditlog/models.py	/^        to=settings.AUTH_USER_MODEL,$/;"	v	class:LogEntry.Action
+track_field	auditlog/diff.py	/^def track_field(field):$/;"	f
+unregister	auditlog/registry.py	/^    def unregister(self, model: ModelBase) -> None:$/;"	m	class:AuditlogModelRegistry
+update	auditlog_tests/tests.py	/^    def update(self, obj):$/;"	m	class:SimpleModelTest
+update	auditlog_tests/tests.py	/^    def update(self, obj):$/;"	m	class:WithActorMixin
+url	setup.py	/^    url="https:\/\/github.com\/jazzband\/django-auditlog",$/;"	v
+urlpatterns	auditlog_tests/urls.py	/^urlpatterns = [$/;"	v
+urlresolvers	auditlog/mixins.py	/^from django import urls as urlresolvers$/;"	i
+use_scm_version	setup.py	/^    use_scm_version={"version_scheme": "post-release"},$/;"	v
+user_url	auditlog/mixins.py	/^    def user_url(self, obj):$/;"	m	class:LogEntryAdminMixin
+utc_plus_one	auditlog_tests/tests.py	/^    utc_plus_one = django_timezone.get_fixed_timezone(datetime.timedelta(hours=1))$/;"	v	class:DateTimeFieldModelTest
+uuid	auditlog_tests/models.py	/^import uuid$/;"	i
+value	auditlog_tests/models.py	/^    value = models.IntegerField()$/;"	v	class:SerializeNaturalKeyRelatedModel
+value	auditlog_tests/models.py	/^    value = models.IntegerField()$/;"	v	class:SerializePrimaryKeyRelatedModel
+verbose_name	auditlog/apps.py	/^    verbose_name = "Audit log"$/;"	v	class:AuditlogConfig
+verbose_name	auditlog/migrations/0001_initial.py	/^                        verbose_name="ID",$/;"	v	class:Migration
+verbose_name	auditlog/migrations/0001_initial.py	/^                        verbose_name="action",$/;"	v	class:Migration
+verbose_name	auditlog/migrations/0001_initial.py	/^                        verbose_name="actor",$/;"	v	class:Migration
+verbose_name	auditlog/migrations/0001_initial.py	/^                        verbose_name="content type",$/;"	v	class:Migration
+verbose_name	auditlog/migrations/0008_action_index.py	/^                verbose_name="action",$/;"	v	class:Migration
+verbose_name	auditlog/migrations/0012_add_logentry_action_access.py	/^                verbose_name="action",$/;"	v	class:Migration
+verbose_name	auditlog/models.py	/^        verbose_name = _("log entry")$/;"	v	class:LogEntry.Meta
+verbose_name	auditlog/models.py	/^        verbose_name=_("actor"),$/;"	v	class:LogEntry.Action
+verbose_name	auditlog/models.py	/^        verbose_name=_("content type"),$/;"	v	class:LogEntry.Action
+verbose_name_plural	auditlog/models.py	/^        verbose_name_plural = _("log entries")$/;"	v	class:LogEntry.Meta
+version	docs/source/conf.py	/^version = ".".join(release.split(".")[:2])$/;"	v
+vtxt	auditlog_tests/models.py	/^    vtxt = models.CharField(verbose_name="Version", max_length=100)$/;"	v	class:SimpleMappingModel
+warnings	auditlog_tests/tests.py	/^import warnings$/;"	i
+wrapper	auditlog/receivers.py	/^    def wrapper(*args, **kwargs):$/;"	f	function:check_disable
+wraps	auditlog/receivers.py	/^from functools import wraps$/;"	i
+zip_safe	setup.py	/^    zip_safe=False,$/;"	v
