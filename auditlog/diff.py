@@ -2,13 +2,8 @@ from datetime import timezone
 
 from django.conf import settings
 from django.core.exceptions import ObjectDoesNotExist
-<<<<<<< HEAD
 from django.db.models import NOT_PROVIDED, DateTimeField, JSONField, Model
 from django.utils import timezone as django_timezone
-=======
-from django.db.models import Model, NOT_PROVIDED, DateTimeField
-from django.utils import timezone
->>>>>>> 3aaada0... Update smart_text to smart_str
 from django.utils.encoding import smart_str
 
 
