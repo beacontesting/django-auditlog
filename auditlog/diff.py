@@ -65,15 +65,22 @@ def get_field_value(obj, field):
             # DateTimeFields are timezone-aware, so we need to convert the field
             # to its naive form before we can accurately compare them for changes.
             value = field.to_python(getattr(obj, field.name, None))
-            if value is not None and settings.USE_TZ and not timezone.is_naive(value):
-                value = timezone.make_naive(value, timezone=timezone.utc)
-        except ObjectDoesNotExist:
-            value = field.default if field.default is not NOT_PROVIDED else None
-    else:
-        try:
-            value = smart_str(getattr(obj, field.name, None))
-        except ObjectDoesNotExist:
-            value = field.default if field.default is not NOT_PROVIDED else None
+            if (
+                value is not None
+                and settings.USE_TZ
+                and not django_timezone.is_naive(value)
+            ):
+                value = django_timezone.make_naive(value, timezone=timezone.utc)
+            elif isinstance(field, JSONField):
+                value = field.to_python(getattr(obj, field.name, None))
+            else:
+                value = smart_str(getattr(obj, field.name, None))
+    except ObjectDoesNotExist:
+        value = (
+            field.default
+            if getattr(field, "default", NOT_PROVIDED) is not NOT_PROVIDED
+            else None
+        )
 
     return value
 
