@@ -71,10 +71,10 @@ def get_field_value(obj, field):
                 and not django_timezone.is_naive(value)
             ):
                 value = django_timezone.make_naive(value, timezone=timezone.utc)
-            elif isinstance(field, JSONField):
-                value = field.to_python(getattr(obj, field.name, None))
-            else:
-                value = smart_str(getattr(obj, field.name, None))
+        elif isinstance(field, JSONField):
+            value = field.to_python(getattr(obj, field.name, None))
+        else:
+            value = smart_str(getattr(obj, field.name, None))
     except ObjectDoesNotExist:
         value = (
             field.default
